@@ -13,10 +13,17 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
 
-      <v-btn color="white" right>
+      <v-btn color="white" right flat>
         <span>
+          <v-icon small>fas fa-sign-out-alt</v-icon> 
           Sign out
-        </span><v-icon>mdi-sign-direction-plus</v-icon>
+        </span>
+      </v-btn>
+      <v-btn color="white" right flat>
+        <span>
+          <v-icon small>fas fa-user</v-icon> 
+          Profile
+        </span>
       </v-btn>
     </v-toolbar>
 
